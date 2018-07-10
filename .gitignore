@@ -1,6 +1,7 @@
+/node_modules
+
 .DS_Store
-/.DS_Store
-.sass-cache
+Thumbs.db
 /.sass-cache
-sass-cache/*
+.sass-cache/*
 *.scssc
