@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node-sass --watch ./scss -o ./css --output-style compressed --source-map true",
-    "prod-build": "node-sass --watch ./scss -o ./css --output-style compressed",
-    "rawcss": "node-sass --watch ./scss -o ./css"
+    "start": "gulp"
   },
   "author": "bootstrap, Ajith S Punalur",
   "license": "ISC",
   "repository": {
     "url": "https://github.com/asphub/bootstrap-4-grid"
   },
-  "dependencies": {
-    "sass": "^1.34.0"
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
