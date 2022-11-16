@@ -15,7 +15,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^5.0.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-dart-sass": "^1.0.2",
     "gulp-livereload": "^4.0.2",
